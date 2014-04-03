@@ -1,0 +1,396 @@
+body
+{
+    font-family: lucida grande, sans-serif, verdana;
+    background-color: white;
+}
+
+body p 
+{
+   font-size: 0.8em;
+   line-height: 1.28;
+}
+
+#aboutDiv
+{
+    font-size: 16px;
+}
+
+.teamPic
+{
+    width: 450px; 
+    height: 400px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px; 
+    box-shadow: 10px 10px 5px #888888;
+}
+
+p 
+{ 
+    position:absolute; 
+    top:3px; 
+    right:28px; 
+    color:#555; 
+    font: bold 13px/1 sans-serif;
+}
+
+.sssPic
+{
+    display:inline-block;
+    position: relative;
+    
+}
+
+// magnifying glass icon //
+.sssPic:after 
+{
+        content:'';
+        display:block; 
+        width:33px; 
+        height:33px; 
+        position:absolute; 
+        top:0;
+        right:0;
+        background:url(Images/icon.png);
+}
+
+.sssPic img 
+{
+        display: block;
+}
+
+.sssPic img::selection 
+{ 
+    background-color: transparent; 
+}
+
+.sssPic img:hover 
+{ 
+    cursor: url(Images/grab.cur), default; 
+}
+
+.sssPic img:active 
+{ 
+    cursor: url(Images/grabbed.cur), default; 
+}
+
+.pImage
+{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    //border: black 2px solid;
+    //border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.divPlayer
+{
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.divHead
+{
+    border: 0;
+    font-family: cursive;
+    vertical-align: bottom;
+    text-align: center; 
+    color: white; 
+    background-color: black;
+    font-size: 40px;
+    font-weight: bold;
+    height: 60px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.navigate
+{
+    width: 100%;
+    height: 40px;
+    background: black;
+    border: 0;
+}
+
+.navigateStat
+{
+    width: 100%;
+    height: 40px;
+    background: #0088cc;
+    border: 0;
+}
+
+.navy
+{
+   background-color: black;
+   margin-right: 20px;
+   height: 40px;
+   text-align: center;
+   font-size:19px;
+}
+
+.navy a 
+{
+    text-decoration:none; 
+    color: white;
+    line-height: 40px;
+}
+
+.navy a:hover
+{
+    color: #0088cc;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear; 
+}
+
+.navyStat
+{
+   background-color: #0088cc;
+   margin-right: 20px;
+   height: 40px;
+   text-align: center;
+   font-size:19px;
+}
+
+.navyStat a 
+{
+    text-decoration:none; 
+    color: white;
+    line-height: 40px;
+}
+
+.navyStat a:hover
+{
+    color: black;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear; 
+}
+
+.yearstat
+{
+   margin-top: 5px;
+   margin-right: 30px;
+   list-style-type: none;
+   text-align: right;
+   font-size:19px;
+}
+
+.yearstat a 
+{
+    text-decoration: none; 
+    color: #0088cc;
+    line-height: 20px;
+}
+
+.yearstat a:hover
+{
+    color: blue;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear; 
+}
+
+.year
+{
+   margin-left: -20px;
+   list-style-type: none;
+   text-align: center;
+   font-size:19px;
+}
+
+.year a 
+{
+    text-decoration: none; 
+    color: #0088cc;
+    line-height: 20px;
+}
+
+.year a:hover
+{
+    color: blue;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear; 
+}
+
+.selectionBar
+{
+    font-size: 20px;
+    vertical-align: top; 
+    background-color: white;
+}
+.selectionBar ul 
+{
+    list-style:none; 
+    padding: 0px;
+    margin: 0px;
+}
+.selectionBar li 
+{
+    width: 180px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    line-height: 30px;
+    float:none; 
+    text-align: center;
+    padding-left: 5px;
+}
+.selectionBar a 
+{
+    text-decoration:none; 
+    color: black;
+}
+.selectionBar li:hover 
+{
+    background-color:  #0088cc;
+    -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear; 
+}
+
+.btn 
+{
+  display: inline-block;
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #fafafa;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  *margin-left: .3em;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn.active, .btn:active {
+  background-image: none;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  color: rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+.btn.disabled, .btn[disabled] {
+  cursor: default;
+  background-image: none;
+  background-color: #e6e6e6;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.btn-large {
+  padding: 9px 14px;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn-large .icon {
+  margin-top: 1px;
+}
+.btn-small {
+  padding: 5px 9px;
+  font-size: 11px;
+  line-height: 16px;
+}
+.btn-small .icon {
+  margin-top: -1px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-warning,
+.btn-warning:hover,
+.btn-danger,
+.btn-danger:hover,
+.btn-success,
+.btn-success:hover,
+.btn-info,
+.btn-info:hover {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+.btn-primary {
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(top, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #0044cc;
+}
+.btn-primary:active, .btn-primary.active {
+  background-color: #003399 \9;
+}
